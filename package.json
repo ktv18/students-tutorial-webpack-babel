@@ -1,0 +1,33 @@
+{
+  "name": "students-tutorial-webpack-babel",
+  "version": "1.0.0",
+  "description": "In this tutorial we are going to use [Yarn](https://yarnpkg.com/en/docs/install) as a package manager",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ktv18/students-tutorial-webpack-babel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ktv18/students-tutorial-webpack-babel/issues"
+  },
+  "homepage": "https://github.com/ktv18/students-tutorial-webpack-babel#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
